@@ -1,0 +1,20 @@
+node_modules/
+.next/
+out/
+.env*
+.vercel/
+*.tsbuildinfo
+
+# Local settings, verification artifacts, and logs
+.DS_Store
+Thumbs.db
+*.log
+coverage/
+playwright-report/
+test-results/
+
+# Competition source data and private records belong outside this repository
+data/raw/
+data/private/
+private/
+*.zip
